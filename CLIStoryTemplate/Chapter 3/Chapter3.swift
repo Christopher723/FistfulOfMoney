@@ -6,5 +6,5 @@
 import Foundation
 
 func chapterThree() {
-    // Your portion of the story goes here
+    print("I'm tyler and wrinting chapter three test")
 }
