@@ -1,13 +1,15 @@
 //
 //  Chapter2.swift
 //  CLIStoryTemplate
-// not Taylor Swift
+//
 
 import Foundation
 
 func chapterTwo() {
     // Your portion of the story goes here
     
+    
+    let hero = 5
     let some = 3
     let an = 1
     let all = 100
