@@ -4,6 +4,8 @@
 //
 
 import Foundation
+var characters = ["Tyler", "Mario", "Cleo", "Chris"]
+var mainCharacter = characters.randomElement()
 
 func chapterTwo() {
     // Your portion of the story goes here
@@ -16,5 +18,11 @@ func chapterTwo() {
     let Bacon = 1
     
     
+    
+    
+    
+        
+        
+        
     print("Our hero sees a towny gettin beatup by \(some) thugs then intervieens with \(an) axe handle to save the day. Now our hero is a real hero to \(all) the townies. Hero then is asked to join in \(all) the other fights. In the mean time we are having \(Bacon) Bacon, Lettuce, tomato sandwich on toast with mayonaise.")
 }
