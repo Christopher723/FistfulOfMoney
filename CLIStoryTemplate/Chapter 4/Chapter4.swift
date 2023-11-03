@@ -38,9 +38,9 @@ func chapterFour() {
     var mySandwich = sandwich(toppings: ["lettuce"])
     mySandwich.addTopping(topping: "tomato")
     
-    
+    print("Finally our hero visists a small town called wano theres lots of fighting.")
     if mainCharacter == "Tyler"{
-        print("The story ends with Tyler using magical powers to multiply sandwich with \(Int(String(mySandwich.toppings.count))!) toppings, \(mySandwich.toppings.joined(separator: ", ")) into 500 sandwhiches so everyone can eat and no longer fight over food")
+        print("Tyler realizes the fighting is over food, The story ends with Tyler using magical powers to multiply sandwich with \(Int(String(mySandwich.toppings.count))!) toppings, \(mySandwich.toppings.joined(separator: ", ")) into 500 sandwhiches so everyone can eat and no longer fight over food")
     }
     if mainCharacter == "Cleo"{
         print("Nobody dies but cleo decided he would have to share this sandwich with \(Int(String(mySandwich.toppings.count))!) toppings, \(mySandwich.toppings.joined(separator: ", ")) with everyone, but unfortunatley no one wanted to share one sandwich, which causes everyone to get angry and banish Cleo from the village. ")
@@ -57,7 +57,7 @@ func chapterFour() {
     print("Did you like this ending? (Y/N)")
     if let temp = readLine()?.lowercased() {
         let userReview: review
-        
+
         switch temp {
         case "y":
             print("Great to hear that you liked it!")
