@@ -8,12 +8,9 @@ import Foundation
 struct sandwich{
     var toppings:[String] = []
     
-    init(toppings: [String]) {
-        self.toppings = toppings
-    }
     
     mutating func addTopping(topping: String) {
-            self.toppings.append(topping)
+        self.toppings.append(topping)
     }
     func getToppings()-> [String]{
         var myArr: [String] = []
