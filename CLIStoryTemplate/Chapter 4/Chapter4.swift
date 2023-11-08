@@ -25,8 +25,8 @@ struct sandwich{
     }
 }
 enum review{
-    case n
-    case y
+    case n, y, none
+   
 }
 
 
@@ -56,14 +56,19 @@ func chapterFour() {
     }
     print("Did you like this ending? (Y/N)")
     if let temp = readLine()?.lowercased() {
-        let userReview: review
-
-        switch temp {
-        case "y":
+        var enumCase = review.none
+        if temp == "n"{
+            enumCase = review.n
+        }
+        if temp == "y"{
+            enumCase = review.y
+        }
+        switch enumCase {
+        case .y:
             print("Great to hear that you liked it!")
-        case "n":
+        case .n:
             print("Sorry to hear that you didn't like it.")
-        default:
+        case .none:
             print("That wasn't an option, but thanks anyway!")
         }
     }

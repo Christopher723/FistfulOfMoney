@@ -22,9 +22,7 @@ func readStory() {
     print("Chapter 4")
     chapterFour()
     print("\n")
-    print("Chapter 5")
-    chapterFive()
-    print("\n")
+    
 
 }
 
