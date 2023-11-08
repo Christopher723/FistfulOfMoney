@@ -29,13 +29,14 @@ func chapterThree() {
         sadArr.append(people)
         
     }
+    if sadArr.isEmpty {
+         return print("Our hero then walks out of the town to continue his adventure and help more people")
+    }
     while !sadArr.isEmpty{
         print(" \(mainCharacter) walks up to a town residident seeing him in distress. Please help me my name is \(sadArr[0].name), I need help with \(String(describing: sadArr[0].problem!))")
         print("Our hero then \(String(describing: sadArr[0].solution!))")
         sadArr.remove(at: 0)
-//        if sadArr.isEmpty {
-//             return print("no idea yet")
-//        }
+       
     }
     
 }
