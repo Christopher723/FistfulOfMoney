@@ -58,7 +58,7 @@ func chapterTwo() {
     
     
     
-    print("\(mainCharacter) sees a towny gettin beatup by \(some) thugs then intervieens with an axe handle to save the day. Now \(mainCharacter) is a real hero to all \(all) of the townies. \(mainCharacter) then is asked to join in \(hero) the other fights. In the mean time we are having \(Bacon) Bacon, Lettuce, tomato sandwich on toast with mayonaise.")
+    print("After waking up from the injury, \(mainCharacter) realizes he's no longer in modern day detroit, rather detroit 200 years ago. \(mainCharacter) sees a towny gettin beatup by \(some) thugs then intervieens with an axe handle to save the day. Now \(mainCharacter) is a real hero to all \(all) of the townies. \(mainCharacter) then is asked to join in \(hero) the other fights. In the mean time we are having \(Bacon) Bacon, Lettuce, tomato sandwich on toast with mayonaise.")
     
     
     if mainCharacter == "Tyler"{
